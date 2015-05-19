@@ -1,0 +1,67 @@
+[Project ID]
+Signature=UE Proj: v.1
+[Project Information]
+Use Relative Directory=1
+Relative to Project File=1
+Include Sub Directories=1
+Project Tagfile=
+Project Wordfile=
+Filter=
+Create Tagfile=0
+[Group]
+0=库文件
+1=SMSIS
+2=USER
+[Files - 库文件]
+0=BSP_lib\Src\Driver\DrvADC.c
+1=BSP_lib\Src\Driver\DrvCAN.c
+2=BSP_lib\Src\Driver\DrvEBI.c
+3=BSP_lib\Src\Driver\DrvFMC.c
+4=BSP_lib\Src\Driver\DrvGPIO.c
+5=BSP_lib\Src\Driver\DrvI2C.c
+6=BSP_lib\Src\Driver\DrvI2S.c
+7=BSP_lib\Src\Driver\DrvPDMA.c
+8=BSP_lib\Src\Driver\DrvPS2.c
+9=BSP_lib\Src\Driver\DrvPWM.c
+10=BSP_lib\Src\Driver\DrvRTC.c
+11=BSP_lib\Src\Driver\DrvSPI.c
+12=BSP_lib\Src\Driver\DrvSYS.c
+13=BSP_lib\Src\Driver\DrvTIMER.c
+14=BSP_lib\Src\Driver\DrvUART.c
+15=BSP_lib\Src\Driver\DrvUSB.c
+16=BSP_lib\Src\Driver\retarget.c
+17=BSP_lib\Inc\Driver\DrvADC.h
+18=BSP_lib\Inc\Driver\DrvCAN.h
+19=BSP_lib\Inc\Driver\DrvEBI.h
+20=BSP_lib\Inc\Driver\DrvFMC.h
+21=BSP_lib\Inc\Driver\DrvGPIO.h
+22=BSP_lib\Inc\Driver\DrvI2C.h
+23=BSP_lib\Inc\Driver\DrvI2S.h
+24=BSP_lib\Inc\Driver\DrvPDMA.h
+25=BSP_lib\Inc\Driver\DrvPS2.h
+26=BSP_lib\Inc\Driver\DrvPWM.h
+27=BSP_lib\Inc\Driver\DrvRTC.h
+28=BSP_lib\Inc\Driver\DrvSPI.h
+29=BSP_lib\Inc\Driver\DrvSYS.h
+30=BSP_lib\Inc\Driver\DrvTIMER.h
+31=BSP_lib\Inc\Driver\DrvUART.h
+32=BSP_lib\Inc\Driver\DrvUSB.h
+[Files - SMSIS]
+0=CMSIS\CMOSupport\core_cm0.c
+1=CMSIS\CMOSupport\core_cm0.h
+2=CMSIS\NUC1xxSupport\NUC1xx.h
+3=CMSIS\NUC1xxSupport\system_NUC1xx.c
+4=CMSIS\NUC1xxSupport\system_NUC1xx.h
+5=CMSIS\STARTUP\startup_NUC1xx.s
+[Files - USER]
+0=User\src\UartAPI.c
+1=User\src\IO_logic.c
+2=User\src\main.c
+3=User\src\MODBUS.C
+4=User\src\public.c
+5=User\src\TimerAPI.c
+6=User\inc\UartAPI.h
+7=User\inc\IO_logic.h
+8=User\inc\modbus.h
+9=User\inc\public.h
+10=User\inc\TimerAPI.h

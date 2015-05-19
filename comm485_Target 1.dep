@@ -1,0 +1,397 @@
+Dependencies for Project 'comm485', Target 'Target 1': (DO NOT MODIFY !)
+F (.\User\src\main.c)(0x535F34F7)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\main.o --list_dir ".\\list\\" --list --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (.\User\inc\IO_logic.h)(0x52520343)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\User\inc\UartAPI.h)(0x5256517B)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\modbus\include\mbport.h)(0x535F45E4)
+I (.\modbus\MBport\port.h)(0x535B3CEA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+I (.\modbus\include\mb.h)(0x45783CFA)
+I (.\modbus\include\mbproto.h)(0x5252140A)
+F (.\User\src\IO_logic.c)(0x534CA083)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\io_logic.o --list_dir ".\\list\\" --list --omf_browse .\obj\io_logic.crf --depend .\obj\io_logic.d)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\User\inc\IO_logic.h)(0x52520343)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+F (.\User\src\public.c)(0x52117DE1)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\public.o --list_dir ".\\list\\" --list --omf_browse .\obj\public.crf --depend .\obj\public.d)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+F (.\User\src\UartAPI.c)(0x534CACA6)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\uartapi.o --list_dir ".\\list\\" --list --omf_browse .\obj\uartapi.crf --depend .\obj\uartapi.d)
+I (.\User\inc\UartAPI.h)(0x5256517B)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\User\inc\IO_Logic.h)(0x52520343)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\modbus\include\mb.h)(0x45783CFA)
+I (.\modbus\MBport\port.h)(0x535B3CEA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+I (.\modbus\include\mbport.h)(0x535F45E4)
+I (.\modbus\include\mbproto.h)(0x5252140A)
+I (.\modbus\include\mbutils.h)(0x45783CFA)
+F (.\modbus\MBport\port.c)(0x535B3CB7)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\port.o --list_dir ".\\list\\" --list --omf_browse .\obj\port.crf --depend .\obj\port.d)
+I (modbus\MBport\port.h)(0x535B3CEA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+F (.\modbus\MBport\portevent.c)(0x462E3B26)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\portevent.o --list_dir ".\\list\\" --list --omf_browse .\obj\portevent.crf --depend .\obj\portevent.d)
+I (.\modbus\include\mb.h)(0x45783CFA)
+I (.\modbus\MBport\port.h)(0x535B3CEA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+I (.\modbus\include\mbport.h)(0x535F45E4)
+I (.\modbus\include\mbproto.h)(0x5252140A)
+F (.\modbus\MBport\portserial.c)(0x535F45E4)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\portserial.o --list_dir ".\\list\\" --list --omf_browse .\obj\portserial.crf --depend .\obj\portserial.d)
+I (modbus\MBport\port.h)(0x535B3CEA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+I (.\modbus\include\mb.h)(0x45783CFA)
+I (.\modbus\include\mbport.h)(0x535F45E4)
+I (.\modbus\include\mbproto.h)(0x5252140A)
+F (.\modbus\MBport\porttimer.c)(0x535F0933)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\porttimer.o --list_dir ".\\list\\" --list --omf_browse .\obj\porttimer.crf --depend .\obj\porttimer.d)
+I (modbus\MBport\port.h)(0x535B3CEA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+I (.\modbus\include\mb.h)(0x45783CFA)
+I (.\modbus\include\mbport.h)(0x535F45E4)
+I (.\modbus\include\mbproto.h)(0x5252140A)
+F (.\modbus\rtu\mbcrc.c)(0x45D891E4)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\mbcrc.o --list_dir ".\\list\\" --list --omf_browse .\obj\mbcrc.crf --depend .\obj\mbcrc.d)
+I (.\modbus\MBport\port.h)(0x535B3CEA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+F (.\modbus\rtu\mbrtu.c)(0x535F4632)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\mbrtu.o --list_dir ".\\list\\" --list --omf_browse .\obj\mbrtu.crf --depend .\obj\mbrtu.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\modbus\MBport\port.h)(0x535B3CEA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+I (.\modbus\include\mb.h)(0x45783CFA)
+I (.\modbus\include\mbport.h)(0x535F45E4)
+I (.\modbus\include\mbproto.h)(0x5252140A)
+I (modbus\rtu\mbrtu.h)(0x45783CFA)
+I (.\modbus\include\mbframe.h)(0x45783CFA)
+I (modbus\rtu\mbcrc.h)(0x45783CFA)
+F (.\modbus\functions\mbfunccoils.c)(0x45D89124)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\mbfunccoils.o --list_dir ".\\list\\" --list --omf_browse .\obj\mbfunccoils.crf --depend .\obj\mbfunccoils.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\modbus\MBport\port.h)(0x535B3CEA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+I (.\modbus\include\mb.h)(0x45783CFA)
+I (.\modbus\include\mbport.h)(0x535F45E4)
+I (.\modbus\include\mbproto.h)(0x5252140A)
+I (.\modbus\include\mbframe.h)(0x45783CFA)
+I (.\modbus\include\mbconfig.h)(0x52520812)
+F (.\modbus\functions\mbfuncdisc.c)(0x45D89152)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\mbfuncdisc.o --list_dir ".\\list\\" --list --omf_browse .\obj\mbfuncdisc.crf --depend .\obj\mbfuncdisc.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\modbus\MBport\port.h)(0x535B3CEA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+I (.\modbus\include\mb.h)(0x45783CFA)
+I (.\modbus\include\mbport.h)(0x535F45E4)
+I (.\modbus\include\mbproto.h)(0x5252140A)
+I (.\modbus\include\mbframe.h)(0x45783CFA)
+I (.\modbus\include\mbconfig.h)(0x52520812)
+F (.\modbus\functions\mbfuncholding.c)(0x45D89166)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\mbfuncholding.o --list_dir ".\\list\\" --list --omf_browse .\obj\mbfuncholding.crf --depend .\obj\mbfuncholding.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\modbus\MBport\port.h)(0x535B3CEA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+I (.\modbus\include\mb.h)(0x45783CFA)
+I (.\modbus\include\mbport.h)(0x535F45E4)
+I (.\modbus\include\mbproto.h)(0x5252140A)
+I (.\modbus\include\mbframe.h)(0x45783CFA)
+I (.\modbus\include\mbconfig.h)(0x52520812)
+F (.\modbus\functions\mbfuncinput.c)(0x46E767FC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\mbfuncinput.o --list_dir ".\\list\\" --list --omf_browse .\obj\mbfuncinput.crf --depend .\obj\mbfuncinput.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\modbus\MBport\port.h)(0x535B3CEA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+I (.\modbus\include\mb.h)(0x45783CFA)
+I (.\modbus\include\mbport.h)(0x535F45E4)
+I (.\modbus\include\mbproto.h)(0x5252140A)
+I (.\modbus\include\mbframe.h)(0x45783CFA)
+I (.\modbus\include\mbconfig.h)(0x52520812)
+F (.\modbus\functions\mbfuncother.c)(0x45783CFA)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\mbfuncother.o --list_dir ".\\list\\" --list --omf_browse .\obj\mbfuncother.crf --depend .\obj\mbfuncother.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\modbus\MBport\port.h)(0x535B3CEA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+I (.\modbus\include\mb.h)(0x45783CFA)
+I (.\modbus\include\mbport.h)(0x535F45E4)
+I (.\modbus\include\mbproto.h)(0x5252140A)
+I (.\modbus\include\mbframe.h)(0x45783CFA)
+I (.\modbus\include\mbconfig.h)(0x52520812)
+F (.\modbus\functions\mbutils.c)(0x45D89194)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\mbutils.o --list_dir ".\\list\\" --list --omf_browse .\obj\mbutils.crf --depend .\obj\mbutils.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\modbus\MBport\port.h)(0x535B3CEA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+I (.\modbus\include\mb.h)(0x45783CFA)
+I (.\modbus\include\mbport.h)(0x535F45E4)
+I (.\modbus\include\mbproto.h)(0x5252140A)
+F (.\modbus\mb.c)(0x525207E3)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\mb.o --list_dir ".\\list\\" --list --omf_browse .\obj\mb.crf --depend .\obj\mb.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\modbus\MBport\port.h)(0x535B3CEA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\User\inc\public.h)(0x5212E4AD)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (D:\Program Files\keil\ARM\ARMCC\include\assert.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\inttypes.h)(0x52FDD27E)
+I (.\modbus\include\mb.h)(0x45783CFA)
+I (.\modbus\include\mbport.h)(0x535F45E4)
+I (.\modbus\include\mbproto.h)(0x5252140A)
+I (.\modbus\include\mbconfig.h)(0x52520812)
+I (.\modbus\include\mbframe.h)(0x45783CFA)
+I (.\modbus\include\mbfunc.h)(0x45783CFA)
+I (.\modbus\rtu\mbrtu.h)(0x45783CFA)
+F (.\BSP_lib\Src\Driver\DrvGPIO.c)(0x4F6196E4)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\drvgpio.o --list_dir ".\\list\\" --list --omf_browse .\obj\drvgpio.crf --depend .\obj\drvgpio.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+F (.\BSP_lib\Src\Driver\DrvSYS.c)(0x4F6196E4)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\drvsys.o --list_dir ".\\list\\" --list --omf_browse .\obj\drvsys.crf --depend .\obj\drvsys.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+F (.\BSP_lib\Src\Driver\DrvTIMER.c)(0x525267DA)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\drvtimer.o --list_dir ".\\list\\" --list --omf_browse .\obj\drvtimer.crf --depend .\obj\drvtimer.d)
+I (.\BSP_lib\Inc\Driver\DrvTIMER.h)(0x525267DA)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvGPIO.h)(0x4F6196CA)
+F (.\BSP_lib\Src\Driver\DrvUART.c)(0x533BAC20)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\drvuart.o --list_dir ".\\list\\" --list --omf_browse .\obj\drvuart.crf --depend .\obj\drvuart.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+I (.\BSP_lib\Inc\Driver\DrvUART.h)(0x4F6196CA)
+I (.\BSP_lib\Inc\Driver\DrvSYS.h)(0x4F6196CA)
+F (.\BSP_lib\Src\Driver\retarget.c)(0x52574F8E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\retarget.o --list_dir ".\\list\\" --list --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+F (.\CMSIS\CMOSupport\core_cm0.c)(0x4F619694)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\core_cm0.o --list_dir ".\\list\\" --list --omf_browse .\obj\core_cm0.crf --depend .\obj\core_cm0.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+F (.\CMSIS\NUC1xxSupport\system_NUC1xx.c)(0x4F619694)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\list\\" -I.\BSP_lib\Inc\Driver -I.\CMSIS\CMOSupport -I.\CMSIS\NUC1xxSupport -I.\User\inc -I.\modbus\include -I.\modbus\MBport -I.\modbus\rtu-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"-o .\obj\system_nuc1xx.o --list_dir ".\\list\\" --list --omf_browse .\obj\system_nuc1xx.crf --depend .\obj\system_nuc1xx.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (CMSIS\NUC1xxSupport\NUC1xx.h)(0x520AF2D5)
+I (.\CMSIS\CMOSupport\core_cm0.h)(0x4F619694)
+I (CMSIS\NUC1xxSupport\system_NUC1xx.h)(0x522B322A)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\SysInfra.h)(0x5209A750)
+I (D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx\ModuleID.h)(0x5209A750)
+F (.\CMSIS\STARTUP\startup_NUC1xx.s)(0x535F0476)(--cpu Cortex-M0 -g --16 --apcs=interwork -I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\Nuvoton\NUC1xx"--list .\list\startup_nuc1xx.lst --xref -o .\obj\startup_nuc1xx.o --depend .\obj\startup_nuc1xx.d)

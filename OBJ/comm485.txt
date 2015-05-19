@@ -1,0 +1,9 @@
+
+========================================================================
+
+** Object/Image Component Sizes
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+      8120        724        240        188       1340     290189   .\obj\comm485.axf
+      8120        724        240        188          0          0   ROM Totals for .\obj\comm485.axf
